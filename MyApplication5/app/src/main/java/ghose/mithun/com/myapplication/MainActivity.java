@@ -8,14 +8,13 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button secondActivityButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         final Intent secondIntent = new Intent(this,SecondActivity.class);
-        secondActivityButton = (Button) findViewById(R.id.second_activity_button);
+        Button secondActivityButton = (Button) findViewById(R.id.second_activity_button);
         secondActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
