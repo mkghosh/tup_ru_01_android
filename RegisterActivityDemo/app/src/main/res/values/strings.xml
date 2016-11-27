@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RegisterActivityDemo</string>
+    <string name="second_activity_text">This is Second Activity</string>
+</resources>
