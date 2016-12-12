@@ -1,4 +1,4 @@
-package ghose.mithun.com.registeractivitydemo;
+package ghose.mithun.com.sometaskofviews;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -42,25 +42,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-       switch (view.getId()) {
-           case R.id.btn_add:
-               getNumbers();
-               int additionRes = firstNum + secondNum +thirdNum + fourthNum;
-               result.setText("The result of the addition is : " + additionRes);
-               break;
-           case R.id.btn_mul:
-               getNumbers();
-               int multiplicationRes = firstNum * secondNum * thirdNum * fourthNum;
-               result.setText("The result of the multiplication is : " + multiplicationRes);
-               break;
-           case R.id.btn_avg:
-               getNumbers();
-               double avgRes = (firstNum + secondNum + thirdNum + fourthNum) / 4;
-               result.setText("The average is : " + avgRes);
-               break;
-           default:
-               break;
-       }
+        switch (view.getId()) {
+            case R.id.btn_add:
+                getNumbers();
+                int additionRes = firstNum + secondNum +thirdNum + fourthNum;
+                result.setText("The result of the addition is : " + additionRes);
+                break;
+            case R.id.btn_mul:
+                getNumbers();
+                int multiplicationRes = firstNum * secondNum * thirdNum * fourthNum;
+                result.setText("The result of the multiplication is : " + multiplicationRes);
+                break;
+            case R.id.btn_avg:
+                getNumbers();
+                double avgRes = (firstNum + secondNum + thirdNum + fourthNum) / 4;
+                result.setText("The average is : " + avgRes);
+                break;
+            default:
+                break;
+        }
     }
 
     private void getNumbers() {

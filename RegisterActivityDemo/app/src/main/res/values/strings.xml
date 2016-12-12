@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">RegisterActivityDemo</string>
     <string name="second_activity_text">This is Second Activity</string>
+    <string name="add_sign">+</string>
+    <string name="mul_sign">X</string>
+    <string name="avg_text">AVG</string>
+    <string name="dummy_text">Dummy Text</string>
 </resources>

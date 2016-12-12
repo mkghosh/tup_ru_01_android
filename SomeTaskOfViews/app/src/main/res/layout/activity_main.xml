@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="ghose.mithun.com.registeractivitydemo.MainActivity">
+    tools:context="ghose.mithun.com.sometaskofviews.MainActivity">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -14,21 +14,25 @@
         android:layout_height="wrap_content">
         <EditText
             android:id="@+id/et_firstNum"
+            android:inputType="number"
             android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <EditText
             android:id="@+id/et_secondNum"
+            android:inputType="number"
             android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <EditText
             android:id="@+id/et_thirdNum"
+            android:inputType="number"
             android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <EditText
             android:id="@+id/et_fourthNum"
+            android:inputType="number"
             android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>

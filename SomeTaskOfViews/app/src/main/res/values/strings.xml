@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SomeTaskOfViews</string>
+    <string name="add_sign">+</string>
+    <string name="mul_sign">X</string>
+    <string name="avg_text">AVG</string>
+    <string name="dummy_text" />
+</resources>
