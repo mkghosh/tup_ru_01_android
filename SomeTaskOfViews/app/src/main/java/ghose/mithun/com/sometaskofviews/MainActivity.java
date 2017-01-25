@@ -47,20 +47,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 getNumbers();
                 int additionRes = firstNum + secondNum +thirdNum + fourthNum;
                 result.setText("The result of the addition is : " + additionRes);
+                clearViews();
                 break;
             case R.id.btn_mul:
                 getNumbers();
                 int multiplicationRes = firstNum * secondNum * thirdNum * fourthNum;
                 result.setText("The result of the multiplication is : " + multiplicationRes);
+                clearViews();
                 break;
             case R.id.btn_avg:
                 getNumbers();
                 double avgRes = (firstNum + secondNum + thirdNum + fourthNum) / 4;
                 result.setText("The average is : " + avgRes);
+                clearViews();
                 break;
             default:
+                clearViews();
                 break;
         }
+    }
+
+    private void clearViews() {
+        etFirstNum.setText("");
+        etSecondNum.setText("");
+        etThirdNum.setText("");
+        etFourthNum.setText("");
+        etFirstNum.requestFocus();
     }
 
     private void getNumbers() {
