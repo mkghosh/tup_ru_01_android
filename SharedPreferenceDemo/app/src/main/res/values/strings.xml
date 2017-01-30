@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SharedPreferenceDemo</string>
+    <string name="et_hint">Please insert the key you want to save your data</string>
+    <string name="et_value_hint">Please put the value</string>
+</resources>
