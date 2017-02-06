@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <student>
+        <id>201701</id>
+        <name>Sujon Kumar</name>
+        <subject>ICE</subject>
+    </student>
+    <student>
+        <id>201702</id>
+        <name>Sagar Kumar</name>
+        <subject>ICE</subject>
+    </student>
+    <student>
+        <id>201703</id>
+        <name>Mejanur Rahman</name>
+        <subject>Statistics</subject>
+    </student>
+    <student>
+        <id>201704</id>
+        <name>Shariar Hafiz</name>
+        <subject>Statistics</subject>
+    </student>
+    <student>
+        <id>201705</id>
+        <name>Mamunur Rashid</name>
+        <subject>ICE</subject>
+    </student>
+    <student>
+        <id>201706</id>
+        <name>Ovi</name>
+        <subject>ICE</subject>
+    </student>
+    <student>
+        <id>201707</id>
+        <name>Shuvo</name>
+        <subject>ICE</subject>
+    </student>
+</data>
