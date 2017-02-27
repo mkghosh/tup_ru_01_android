@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mithunkumerghose.sdcarddemo.MainActivity">
+
+    <EditText
+        android:id="@+id/file_name"
+        android:hint="@string/file_name_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/text_to_save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/three_hundred_dp"
+        android:hint="@string/hint_text" />
+    <Button
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/save_text"
+        android:text="@string/btn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

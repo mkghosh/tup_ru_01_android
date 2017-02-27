@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SDCardDemo</string>
+    <string name="hint_text">Please Enter some Text to save in a file</string>
+    <string name="file_name_hint">Enter a file name</string>
+    <string name="btn_text">SAVE</string>
+</resources>
